@@ -1,0 +1,275 @@
+.btn-primary-p{
+    padding: 10px 40px;
+    color: black;
+    background:rgb(100, 190, 231);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 22px 0;
+    transition: .5s;
+}
+
+.btn-primary-p:hover{
+    background: rgb(64, 136, 202);
+    border-radius: 0;
+    border-radius: 15px;
+}
+
+
+.bg-portafolio-nav{
+    background-color: rgb(144, 169, 216);
+}
+
+#services{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#services h2{
+    color:rgb(100, 190, 231);
+    margin-bottom: 45px;
+
+}
+
+#about{
+    text-align:center;
+    padding: 100px 0;
+}
+
+#about h2{
+    padding: 200px 0;
+
+}
+
+footer p{
+    background-color: rgb(100, 190, 231);
+    text-align:center;
+    padding: 20px;
+}
+
+
+#carouselHeroCaptions .carousel-caption{
+    bottom: 40%;
+}
+
+#carouselHeroCaptions .carousel-caption h5{
+    font-size: 50px;
+}
+
+#carouselHeroCaptions .carousel-indicators{
+    bottom: 37%;
+}
+
+#carouselHeroCaptions .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#about img{
+    width: 500px;
+    max-width: 100%;
+
+}
+
+
+#services .item-servicios{
+    transition: .5s;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#services .item-servicios:hover{
+    box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+}
+
+.whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
+
+.whatsapp img{
+    transition: .5s;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+
+
+/* .whatsapp img{
+    box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 16px 19px 0px rgba(0,0,0,0.75);
+} */
+
+#question h3{
+    color: rgb(102, 168, 223);
+    padding: 10px;
+    
+}
+
+/* #question img{   
+    width: 900px;
+    height: 600px;
+    max-width: 100%;  
+} */
+
+#javascript{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 120px;
+    background: black;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#panel-lateral{
+    width: 30%;
+    height: 100vh;
+    background: black;
+    border-right: 4px solid  rgb(83, 152, 209);
+    position: absolute;
+    /* padding: 120px 0; */
+    left: -30%;
+    top: 0px;
+    z-index: 9;
+    transition: .5s;
+}
+
+#panel-lateral.active{
+    left: 0;
+}
+
+#javascript h2{
+    color: aliceblue;
+    margin-bottom: 60px;
+}
+
+#javascript button{
+    background: black;
+    color: rgb(83, 152, 209);
+    border: 1px solid rgb(83, 152, 209);
+    margin: 5px 8px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#javascript button:hover{
+    color: black;
+    background: rgb(83, 152, 209);
+    border-radius: 0;
+}
+
+#javascript hr{
+    border-color: aliceblue;
+}
+
+#figura{
+    width: 200px;
+    height: 200px;
+    background: rgb(83, 152, 209);
+    margin: 80px auto;
+    transition: 1s;
+}
+
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: rgb(218, 134, 221);
+}
+
+
+#figura.top{
+    transform: translateY(-100px);
+}
+
+#panel-lateral .close-panel{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#panel-lateral h3{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+#panel-lateral ul{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#panel-lateral li{
+    list-style: none;
+}
+
+#panel-lateral li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: black;
+    border: 1px solid rgb(83, 152, 209);
+    color: white;
+    margin: 15px 0;
+}
+
+#figura.horizontal{
+    width: 400px;
+    background: rgb(218, 134, 221);
+}
+
+#figura.vertical{
+    height: 400px;
+    background: rgb(218, 134, 221);
+}
+
+#figura.gif{
+    background: url(../img/manchester-united-cristiano-ronaldo.gif);
+    background-size: cover;
+    transition: .5s;
+}
+
+#figura.rigth{
+    transform: translateX(100px);
+}
+
+#figura.left{
+    transform: translateX(-100px);
+}
+
+#figura.bottom{
+    transform: translateY(100px);
+}
+
+#figura.degradado{
+    background: linear-gradient(rgb(83, 152, 209), rgb(218, 134, 221));
+    transition: .6s;
+}
+
+#figura.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 152px solid rgb(218, 134, 221);
+    border-radius: 0px;
+    background-color: #000000;
+    transition: 1.1s;
+  }
+
+
+#figura.rombo{
+    background:  rgb(218, 134, 221);
+    transform: rotate(45deg);
+    transition: .5s;
+}
